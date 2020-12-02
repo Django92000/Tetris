@@ -49,8 +49,8 @@
             <li class="active"><a href="index.html">Accueil</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="about.html">Contact</a></li>
-            <li><a href="works.html">WORKS</a></li>
-            <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a data-toggle="modal" data-target="#contactModal" href="#contactModal"><i class="fa fa-envelope-o fa-2x"></i></a></li>
           </ul>
         </div>
         <!--/.nav-collapse -->
@@ -330,30 +330,28 @@
 
                         <!-- MODAL FOR CONTACT -->
                         <!-- Modal -->
-                        <div class="modal fade" id="myModalInitial" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
                           <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title" id="myModalLabel">contact us</h4>
+                                <h4 class="modal-title" id="myModalLabel2">Contacter nous</h4>
                               </div>
                               <div class="modal-body">
                                 <div class="row centered">
-                                  <p>We are available 24/7, so don't hesitate to contact us.</p>
+                                  <p>N'hésitez pas à nous contacter pour toute information supplémentaire.</p>
                                   <p>
-                                    Somestreet Ave, 987<br/> London, UK.<br/> +44 8948-4343<br/> contact@example.com
-                                  </p>
 
                                   <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
 
                                     <div class="form-group">
                                       <label for="contact-name">Votre nom</label>
-                                      <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:1" >
+                                      <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:1" data-msg="Merci de saisir votre nom." >
                                       <div class="validate"></div>
                                     </div>
                                     <div class="form-group">
                                       <label for="contact-email">Votre Email</label>
-                                      <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="merci de saisir un mail valide.">
+                                      <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Merci de saisir un mail valide.">
                                       <div class="validate"></div>
                                     </div>
                                     <div class="form-group">
@@ -364,7 +362,7 @@
 
                                     <div class="form-group">
                                       <label for="contact-message">Votre Message</label>
-                                      <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Merci d'écrire un message."></textarea>
+                                      <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Merci d''écrire un message."></textarea>
                                       <div class="validate"></div>
                                     </div>
 
@@ -377,6 +375,7 @@
                                     </div>
 
                                   </form>
+
                                 </div>
                               </div>
                             </div>
