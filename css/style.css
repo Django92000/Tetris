@@ -73,8 +73,20 @@ hr {
   padding-bottom: 15px;
 }
 
+.navbar2 {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
 .navbar-inverse {
-  background: #2d2d2d;
+  background: navy;
+  border-color: #2d2d2d;
+}
+
+.navbar-inverse2 {
+  background: grey;
   border-color: #2d2d2d;
 }
 
