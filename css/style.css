@@ -1,9 +1,4 @@
-/**
-* Template Name: Spot
-* Template URL: https://templatemag.com/spot-bootstrap-freelance-template/
-* Author: TemplateMag.com
-* License: https://templatemag.com/license/
-*/
+
 
 body {
   background-color: #f2f2f2;
@@ -42,7 +37,7 @@ p {
 /* Links */
 
 a {
-  color: #f85c37;
+  color:navy;
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
@@ -136,7 +131,7 @@ hr {
   padding-top: 20px;
   text-align: center;
   background-attachment: relative;
-  background-position: center center;
+  background-position: center;
   min-height: 500px;
   width: 100%;
   -webkit-background-size: 100%;
@@ -147,14 +142,21 @@ hr {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+   box-shadow: 3px 5px 50px 5px;
 }
 
 #headerwrap h1 {
-  margin-top: 100px;
+  justify-content: center;
+  margin-top: 70px;
   color: white;
-  font-size: 70px;
+  font-size: 5em;
   font-weight: 300;
   letter-spacing: 3px;
+  /*
+  display: flex;
+  white-space: nowrap;
+  border:solid;
+*/
 }
 
 #headerwrap h2 {
@@ -166,10 +168,47 @@ hr {
 }
 
 #headerwrap h3 {
+  margin-top: 60px;
   color: white;
-  font-size: 37px;
+  font-size: 2em;
   font-weight: 500;
   letter-spacing: 1px;
+}
+
+#headerwrap h4 {
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#risk {
+  margin-top: 100px;
+  white-space: nowrap;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+
+  }
+
+#risk h1{
+  font-size: 200px;
+  justify-content: center;
+  display: flex;
+  white-space: nowrap;
+}
+
+#risk h4{
+  justify-content: center;
+  display: flex;
+  white-space: nowrap;
+}
+
+#riskLetter{
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  font-weight: bold;
 }
 
 @media (max-width: 768px ) {
