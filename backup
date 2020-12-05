@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>M7RIS - Management des Risques</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  Template Name: Spot
+  Template URL: https://templatemag.com/spot-bootstrap-freelance-template/
+  Author: TemplateMag.com
+  License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">TR<i class="fa fa-medkit"></i>C</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">Contact</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a data-toggle="modal" data-target="#contactModal" href="#contactModal"><i class="fa fa-envelope-o fa-2x"></i></a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row centered">
+      <br>
+      <div class="col-lg-4 cursor-pointer" data-toggle="modal" data-target="#modalReglementation">
+      <!--    <i class="fa fa-clipboard fa-2x"></i> -->
+      <h1>APPUI / CONSEIL</h1>
+        </div>
+
+        <div class="col-lg-4 cursor-pointer" data-toggle="modal" data-target="#modalReglementation">
+        <!--    <i class="fa fa-clipboard fa-2x"></i> -->
+        <h1>AUDIT</h1>
+
+          </div>
+          <div class="col-lg-4 cursor-pointer" data-toggle="modal" data-target="#modalReglementation">
+          <!--    <i class="fa fa-clipboard fa-2x"></i> -->
+          <h1>FORMATION</h1>
+      <br>
+            </div>
+
+    </div>    </div>
+
+  <div id="headerwrap">
+    <div class="container">
+      <div class="row centered">
+        <div class="col">
+          <h1>Le management des <b>R.I.S.Q.U.E.S.</b></h1>
+          <h3>Notre expertise est à votre service pour vous accompagner dans votre démarche de développement, d’amélioration continue et d’amélioration par <u>percée</u>(??).</h3>
+          <br><br>
+      <h4>  TRUC  applique les référentiels  ISO 9001,  ISO 14001 et ISO 45001 et s’y conforme au cours de ses prestations.</h4>
+<br>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <!-- headerwrap -->
+
+  <!-- 1er container: 1ère ligne -->
+  <div id="risk">
+  <div class="container">
+    <div class="col">
+      <div class="col-lg-1 cursor-pointer" data-toggle="modal" data-target="#modalReglementation">
+      <h1>R</h1>
+        <h4><b>Règlementation</b></h3>
+        <p>
+
+        </p>
+        </div>
+
+        <!-- col-lg-4 -->
+        <div class="col-lg-1">
+         <h1>I</h1>
+          <h4>Incendie</h4>
+              <p>
+            </p>
+          </div>
+              <!-- col-lg-4 -->
+
+          <div class="col-lg-1">
+       <h1>S</h1>
+            <h4>Sécurité</h4>
+            <p>
+            </p>
+          </div>
+
+      <div class="col-lg-1">
+   <h1>Q</h1>
+        <h4><b>Qualité</b></h3>
+        <p>
+        </p>
+        </div>
+
+        <div class="col-lg-1">
+   <h1>U</h1>
+          <h4><b>Urbanisme</b></h3>
+          </p>
+          </div>
+
+          <div class="col-lg-1">
+   <h1>E</h1>
+    <h4><b>Envrironnement</b></h3>
+            <p>
+
+            </p>
+        </div>
+
+        <div class="col-lg-1">
+          <h1>S</h1>
+          <h4><b>Sûreté</b></h3>
+          <p>
+
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Fixed navbar -->
+    <div class="navbar2 navbar-inverse2 navbar-fixed-bottom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Mention légales</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <!-- MODAL Réglementation -->
+           <!-- Modal -->
+           <div class="modal fade" id="modalReglementation" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-xl">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                   <h4 class="modal-title" id="myModalLabel">Réglementation</h4>
+                 </div>
+                 <div class="modal-body">
+                   <div>
+                     Identification des exigences réglementaires (Qualité, Sécurité, Environnement)
+                     <ul>
+                       <li>xxxxxx</li>
+                       <li>xxxxxx</li>
+                       <li>xxxxxx</li>
+                     </ul>
+                     <br>
+                     Évaluation de la conformité réglementaire
+                     <ul>
+                       <li>xxxxxx</li>
+                       <li>xxxxxx</li>
+                       <li>xxxxxx</li>
+                     </ul>
+                   <br>
+                     Proposition de plan d’action de mise en conformité
+                     <ul>
+                       <li>xxxxxx</li>
+                       <li>xxxxxx</li>
+                       <li>xxxxxx</li>
+                     </ul>
+                   <br>
+
+                       <div class="form-send">
+                         <button class="btn btn-xl">OK</button>
+                       </div>
+
+                     </form>
+                   </div>
+                 </div>
+               </div>
+               <!-- /.modal-content -->
+             </div>
+             <!-- /.modal-dialog -->
+           </div>
+           <!-- /.modal -->
+
+
+                    <!-- JavaScript Libraries -->
+                    <script src="lib/jquery/jquery.min.js"></script>
+                    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+                    <script src="lib/php-mail-form/validate.js"></script>
+                    <script src="lib/chart/chart.js"></script>
+
+                    <!-- Template Main Javascript File -->
+                    <script src="js/main.js"></script>
+
+                  </body>
+                  </html>
