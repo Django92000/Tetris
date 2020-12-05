@@ -102,6 +102,10 @@ hr {
   letter-spacing: 1px;
 }
 
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+}
+
 /*TILT*/
 
 .tilt {
@@ -183,8 +187,8 @@ hr {
 }
 
 #risk {
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 70px;
+  margin-bottom: 100px;
   white-space: nowrap;
   text-align: center;
   color: white;
