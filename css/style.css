@@ -214,6 +214,7 @@ hr {
   margin-right: 30px;
   text-align: center;
   font-weight: bold;
+  justify-content: center;
 }
 
 @media (max-width: 768px ) {
