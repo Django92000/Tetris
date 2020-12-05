@@ -1,4 +1,7 @@
 
+.tab-content>.tab-pane {
+    display: none;
+}
 
 body {
   background-color: #f2f2f2;
@@ -210,7 +213,6 @@ hr {
 }
 
 #riskLetter{
-  margin-left: 30px;
   margin-right: 30px;
   text-align: center;
   font-weight: bold;
