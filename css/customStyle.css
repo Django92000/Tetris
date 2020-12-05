@@ -49,6 +49,9 @@ a:before, a:after {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+.navbar-logo {
+  /*  font-family: "Wide latin"; */
+}
 
 .navbar-custom {
   background: midnightblue;
@@ -75,6 +78,12 @@ a:before, a:after {
 .page-footer {
   background: grey;
   border-color: #2d2d2d;
+}
+
+#ul_inline li {
+  display: inline-block;
+  width: 500px;
+  color: white;
 }
 
 /* ==========================================================================
