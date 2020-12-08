@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.footer, .push {
+  height: 142px; /* .push must be the same height as .footer */
+}
+
+.footer {
+  background: grey;
+  border-color: #2d2d2d;
+
+  justify-content: center;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 15px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 70px;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333;
+}
+
+/* Paragraph & Typographic */
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.vertically-centered {
+  vertical-align: middle;
+}
+
+.listTitle {
+/* color: #4682B4; */
+  color:navy;
+  font-size: 20px;
+
+}
+
+/* Links */
+
+a {
+  word-wrap: break-word;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before, a:after {
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.navbar-logo {
+  /*  font-family: "Wide latin"; */
+}
+
+.navbar-custom {
+  background: midnightblue;
+  border-color: #2d2d2d;
+}
+
+.navbar-custom .navbar-nav>.active>a {
+  color:white;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+.navbar-custom .navbar-brand {
+  color: #999999;
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.navbar-custom .navbar-brand i {
+  color: #ff7878;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.navbar-menu {
+  color: white;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.navbar-menu a {
+  color: #999999;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.navbar-menu a:hover{
+  color: white;
+}
+
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav-tabs {
+   border-bottom: 1px solid #d45500;
+}
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+/*  background: url(../img/header-bg.jpg) no-repeat center top;*/
+  background: url(../img/industrieCuttedBlue.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   box-shadow: 3px 5px 50px 5px;
+}
+
+#headerwrap h1 {
+  justify-content: center;
+  margin-top: 70px;
+  color: white;
+  font-size: 5em;
+  font-weight: 300;
+  letter-spacing: 3px;
+  /*
+  display: flex;
+  white-space: nowrap;
+  border:solid;
+*/
+}
+
+#headerwrap h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#headerwrap h3 {
+  margin-top: 60px;
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#headerwrap h4 {
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#riskLetter{
+  margin-right: 30px;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+}
