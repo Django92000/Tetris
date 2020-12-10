@@ -4,6 +4,8 @@
 
 html, body {
     height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 .wrapper {
@@ -122,16 +124,6 @@ a:before, a:after {
   border-color: #2d2d2d;
 }
 
-.navbar-custom .navbar-nav>.active>a {
-  color:white;
-}
-
-a:hover, a:focus {
-  color: #7b7b7b;
-  text-decoration: none;
-  outline: 0;
-}
-
 .navbar-custom .navbar-brand {
   color: #999999;
   font-weight: bolder;
@@ -142,22 +134,13 @@ a:hover, a:focus {
 .navbar-custom .navbar-brand i {
   color: #ff7878;
   font-size: 22px;
-  letter-spacing: 1px;
 }
 
 .navbar-menu {
-  color: white;
   font-size: 22px;
-  letter-spacing: 1px;
 }
 
-.navbar-menu a {
-  color: #999999;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-.navbar-menu a:hover{
+.navbar a:hover{
   color: white;
   text-decoration: underline;
 }
