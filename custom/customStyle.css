@@ -10,22 +10,20 @@ html, body {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+    margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
 }
 
 .footer, .push {
-  height: 142px; /* .push must be the same height as .footer */
+  height: 100px; /* .push must be the same height as .footer */
 }
 
 .footer {
   background: grey;
   border-color: #2d2d2d;
-
   justify-content: center;
   display: -webkit-flex;
   display: flex;
   align-items: center;
-
 }
 
 body {
@@ -33,18 +31,47 @@ body {
   font-family: "Lato";
   font-weight: 300;
   font-size: 15px;
-  color: #555;
+  color: navy;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   margin-top: 70px;
   height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h0, h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway";
   font-weight: 300;
   color: #333;
 }
+
+h0 {
+  word-wrap: break-word;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+h1 {
+  word-wrap: break-word;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+  color: white;
+  font-size: 1.5em;
+}
+
+h2 {
+  word-wrap: break-word;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+  color: #333;
+  font-size: em;
+}
+
+h3 {
+  word-wrap: break-word;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+  color: navy;
+  font-size: 1.5em;
+}
+
 
 /* Paragraph & Typographic */
 
@@ -132,6 +159,7 @@ a:hover, a:focus {
 
 .navbar-menu a:hover{
   color: white;
+  text-decoration: underline;
 }
 
 .navbar {
@@ -145,60 +173,50 @@ a:hover, a:focus {
    border-bottom: 1px solid #d45500;
 }
 
+fa-ul {
+    text-align: left;
+}
 
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
+#headerTitle {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding-bottom: 20px;
+}
 
 #headerwrap {
 /*  background: url(../img/header-bg.jpg) no-repeat center top;*/
   background: url(../img/industrieCuttedBlue.jpg) no-repeat center top;
-  margin-top: -10px;
-  padding-top: 20px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center;
-  min-height: 500px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-   box-shadow: 3px 5px 50px 5px;
+  box-shadow: 3px 5px 50px 5px;
 }
 
 #headerwrap h1 {
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 50px;
   color: white;
   font-size: 5em;
   font-weight: 300;
   letter-spacing: 3px;
-  /*
-  display: flex;
-  white-space: nowrap;
-  border:solid;
-*/
 }
 
 #headerwrap h2 {
+  justify-content: center;
   color: white;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 2em;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 #headerwrap h3 {
   margin-top: 60px;
-  color: white;
+  color: navy;
   font-size: 2em;
   font-weight: 500;
   letter-spacing: 1px;
+
 }
 
 #headerwrap h4 {
@@ -208,9 +226,14 @@ a:hover, a:focus {
   letter-spacing: 1px;
 }
 
-#riskLetter{
-  margin-right: 30px;
-  text-align: center;
+.riskLetter{
+  font-size: 2.4em;
+  font-weight: bolder;
+
+}
+
+.sectionTitle{
+  font-size: 1em;
   font-weight: bold;
-  justify-content: center;
+  color:navy;
 }

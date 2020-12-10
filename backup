@@ -25,3 +25,12 @@
       </form>
     </div>
   </nav>
+
+
+  <div class="footer text-center">
+    <div class="col">
+      ©2020 Copyright:<a href="#">TRUC</a>
+    </div>
+    <div class="col">
+      ©2020 Copyright:<a href="#">TRUC</a>
+    </div>
