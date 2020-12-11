@@ -185,15 +185,25 @@ fa-ul {
 #headerwrap h1 {
   margin-top: 50px;
   color: white;
-  font-size: 5em;
+  font-size: 70px;
   font-weight: 300;
 }
 
 #headerwrap h2 {
   color: white;
-  font-size: 2em;
+  font-size: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px ) {
+  #headerwrap h1 {
+    font-size: 40px;
+  }
+
+  #headerwrap h2 {
+    font-size: 17px;
+  }
 }
 
 #headerwrap h3 {
