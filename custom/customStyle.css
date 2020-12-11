@@ -80,6 +80,7 @@ h3 {
 }
 
 
+
 /* Paragraph & Typographic */
 
 p {
@@ -182,7 +183,6 @@ fa-ul {
 }
 
 #headerwrap h1 {
-  justify-content: center;
   margin-top: 50px;
   color: white;
   font-size: 5em;
@@ -191,7 +191,6 @@ fa-ul {
 }
 
 #headerwrap h2 {
-  justify-content: center;
   color: white;
   font-size: 2em;
   letter-spacing: 2px;
