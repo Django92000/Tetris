@@ -129,6 +129,7 @@ a:before, a:after {
 
 .navbar-custom {
   background: midnightblue;
+background:#0f056b;
   border-color: #2d2d2d;
 }
 
@@ -206,6 +207,17 @@ fa-ul {
   #headerwrap h2 {
     font-size: 17px;
   }
+
+  .riskLetter{
+    font-size: 1em;
+    font-weight: bolder;
+  }
+
+  .sectionTitle{
+    font-size: 0.5em;
+    font-weight: bold;
+    color:navy;
+  }
 }
 
 #headerwrap h3 {
@@ -224,19 +236,18 @@ fa-ul {
   letter-spacing: 1px;
 }
 
+.sectionHeader{
+margin-top: 100px;
+  margin-left: 3em;
+}
+
 .riskLetter{
   font-size: 2.4em;
   font-weight: bolder;
-
 }
 
 .sectionTitle{
   font-size: 1em;
   font-weight: bold;
   color:navy;
-}
-
-.sectionHeader{
-margin-top: 100px;
-  margin-left: 3em;
 }
