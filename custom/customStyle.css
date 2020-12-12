@@ -10,7 +10,7 @@ html, body {
     padding-left:0;
 }
 
-.wrapper {
+#wrapper {
     min-height: 100%;
     height: auto !important;
     height: 100%;
@@ -18,8 +18,11 @@ html, body {
     margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
 }
 
-.footer {
+#footer, #push {
   height: 100px;
+}
+
+#footer {
   background: #3c4146;
   border-color: #2d2d2d;
   justify-content: center;
@@ -29,8 +32,12 @@ html, body {
   color: white;
 }
 
-.footer a{
+#footer a{
   color: #9fa6ad;
+}
+
+#footer a:hover{
+  color: white;
 }
 
 body {
@@ -50,7 +57,6 @@ h0, h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: #333;
   width: 100%;
-
 }
 
 h0 {
@@ -80,8 +86,6 @@ h3 {
   color: navy;
   font-size: 1.5em;
 }
-
-
 
 /* Paragraph & Typographic */
 
