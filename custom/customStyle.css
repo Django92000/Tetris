@@ -18,24 +18,26 @@ html, body {
     margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
 }
 
-.footer, .push {
-  height: 100px; /* .push must be the same height as .footer */
-}
-
 .footer {
-  background: grey;
+  height: 100px;
+  background: #3c4146;
   border-color: #2d2d2d;
   justify-content: center;
   display: -webkit-flex;
   display: flex;
   align-items: center;
+  color: white;
+}
+
+.footer a{
+  color: #9fa6ad;
 }
 
 body {
   background-color: #f2f2f2;
   font-family: "Lato";
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   color: navy;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
@@ -97,8 +99,8 @@ p {
 }
 
 .listTitle {
-/* color: #4682B4; */
   color:navy;
+  background-color: Gainsboro;
   font-size: 20px;
 
 }
@@ -232,4 +234,9 @@ fa-ul {
   font-size: 1em;
   font-weight: bold;
   color:navy;
+}
+
+.sectionHeader{
+margin-top: 100px;
+  margin-left: 3em;
 }
