@@ -199,27 +199,6 @@ fa-ul {
   text-transform: uppercase;
 }
 
-@media (max-width: 768px ) {
-  #headerwrap h1 {
-    font-size: 40px;
-  }
-
-  #headerwrap h2 {
-    font-size: 17px;
-  }
-
-  .riskLetter{
-    font-size: 1em;
-    font-weight: bolder;
-  }
-
-  .sectionTitle{
-    font-size: 0.5em;
-    font-weight: bold;
-    color:navy;
-  }
-}
-
 #headerwrap h3 {
   margin-top: 60px;
   color: navy;
@@ -250,4 +229,25 @@ margin-top: 100px;
   font-size: 1em;
   font-weight: bold;
   color:navy;
+}
+
+@media (max-width: 768px ) {
+  #headerwrap h1 {
+    font-size: 40px;
+  }
+
+  #headerwrap h2 {
+    font-size: 17px;
+  }
+
+  .riskLetter{
+    font-size: 1em;
+    font-weight: bolder;
+  }
+
+  .sectionTitle{
+    font-size: 0.5em;
+    font-weight: bold;
+    color:navy;
+  }
 }
