@@ -246,11 +246,11 @@ margin-top: 100px;
   }
 
   .sectionTitle{
-    font-size: 0.5em;
+    font-size: 0em; <!-- disparait sur téléphone -->
     color:navy;
   }
 
   .nav-link {
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
