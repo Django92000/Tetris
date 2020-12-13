@@ -254,7 +254,11 @@ fa-ul {
   }
 
   .sectionHeader h2{
-    font-size: 19px;
+    font-size: 20px;
+  }
+
+  .sectionHeader {
+    margin-left: 0em;
   }
 
   .nav-link {
