@@ -233,14 +233,15 @@ fa-ul {
 
 .sectionTitlePhone{
   font-size: 0em; /* disparait sur grand écran */
+  font-weight: bold;
 }
 
 @media (max-width: 768px ) { /* Ajustements pour petits écrans/phone */
 
   body {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
-
+/*
   h1 {
     font-size: 3em;
   }
@@ -255,19 +256,15 @@ fa-ul {
   }
 
   .listTitle {
-    color:navy;
-    background-color: Gainsboro;
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 0.9em;
   }
-
+*/
   .sectionTitle{
     font-size: 0em; /* disparait sur phone */
   }
 
   .sectionTitlePhone{
     font-size: 1em; /*s'affiche sur phone */
-    font-weight: bold;
   }
 
   .sectionHeader {
