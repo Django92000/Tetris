@@ -239,12 +239,14 @@ fa-ul {
 @font-face {
     font-family: "WideLatin";
     src:
-    url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.woff2") format("woff2");
+    
+    url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.eot");
+    src: url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.svg#Wide Latin") format("svg");
 
-/*
-    url("custom/WideLatin.woff2") format("woff2")
-    url("custom/WideLatin.woff") format("woff"),
-*/
 }
 
 .wideLatin {
