@@ -205,7 +205,6 @@ fa-ul {
   font-size: 2em;
   font-weight: 500;
   letter-spacing: 1px;
-
 }
 
 #headerwrap h4 {
@@ -235,10 +234,18 @@ fa-ul {
   font-size: 0em; /* disparait sur grand écran */
 }
 
-@media (max-width: 768px ) {
+@media (max-width: 768px ) { /* Ajustements pour petits écrans/phone */
 
   body {
     font-size: 0.9em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1.5em;
   }
 
   .riskLetter{
@@ -257,10 +264,6 @@ fa-ul {
     color:navy;
   }
 
-/*  .sectionHeader h2{
-    font-size: 20px;
-  }
-*/
   .sectionHeader {
     margin-left: 0em;
   }
@@ -268,4 +271,5 @@ fa-ul {
   .nav-link {
     padding-left: 0rem;
     padding-right: 0rem;
+  }
 }
