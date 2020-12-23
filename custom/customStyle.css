@@ -257,6 +257,9 @@ fa-ul {
     font-size: 0.8em;
   }
 
+  .wideLatin {
+      font-size: 1em;
+  }
   .sectionTitle{
     font-size: 0em; /* disparait sur phone */
   }
