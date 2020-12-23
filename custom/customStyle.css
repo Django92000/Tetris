@@ -106,7 +106,8 @@ p {
 .listTitle {
   color:navy;
   background-color: Gainsboro;
-  font-size: 1em;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 /* Links */
@@ -215,7 +216,7 @@ fa-ul {
 }
 
 .sectionHeader{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 3em;
 }
 
@@ -253,15 +254,20 @@ fa-ul {
     font-weight: bolder;
   }
 
+  .listTitle {
+    color:navy;
+    background-color: Gainsboro;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
   .sectionTitle{
     font-size: 0em; /* disparait sur phone */
-    color:navy;
   }
 
   .sectionTitlePhone{
     font-size: 1em; /*s'affiche sur phone */
     font-weight: bold;
-    color:navy;
   }
 
   .sectionHeader {
