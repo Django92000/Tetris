@@ -70,13 +70,14 @@ h1 {
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
   color: white;
-  font-size: 1.5em;
+  font-size: 3.5em;
 }
 
 h2 {
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
   color: #333;
+  font-size: 2em;
 }
 
 h3 {
@@ -191,15 +192,11 @@ fa-ul {
 #headerwrap h1 {
   margin-top: 50px;
   color: white;
-  font-size: 70px;
   font-weight: 300;
 }
 
 #headerwrap h2 {
   color: white;
-  font-size: 30px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 #headerwrap h3 {
@@ -244,14 +241,6 @@ fa-ul {
     font-size: 0.9em;
   }
 
-  #headerwrap h1 {
-    font-size: 40px;
-  }
-
-  #headerwrap h2 {
-    font-size: 17px;
-  }
-
   .riskLetter{
     font-size: 1.2em;
     font-weight: bolder;
@@ -268,10 +257,10 @@ fa-ul {
     color:navy;
   }
 
-  .sectionHeader h2{
+/*  .sectionHeader h2{
     font-size: 20px;
   }
-
+*/
   .sectionHeader {
     margin-left: 0em;
   }
