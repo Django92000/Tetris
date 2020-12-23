@@ -134,7 +134,7 @@ a:before, a:after {
 
 .navbar-custom {
   background: midnightblue;
-background:#0f056b;
+  background:#0f056b;
   border-color: #2d2d2d;
 }
 
@@ -236,29 +236,27 @@ fa-ul {
   font-weight: bold;
 }
 
+@font-face {
+    font-family: "WideLatin";
+    src: url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/5afcc6e055927a510d82c2ced10c01c9.svg#Wide Latin") format("svg");
+}
+
+.wideLatin {
+    font-family: "WideLatin";
+    color:#ff7878;
+    font-size: 1.8em;
+}
+
 @media (max-width: 768px ) { /* Ajustements pour petits écrans/phone */
 
   body {
     font-size: 0.8em;
   }
-/*
-  h1 {
-    font-size: 3em;
-  }
 
-  h2 {
-    font-size: 1.5em;
-  }
-
-  .riskLetter{
-    font-size: 1.2em;
-    font-weight: bolder;
-  }
-
-  .listTitle {
-    font-size: 0.9em;
-  }
-*/
   .sectionTitle{
     font-size: 0em; /* disparait sur phone */
   }
@@ -275,4 +273,5 @@ fa-ul {
     padding-left: 0rem;
     padding-right: 0rem;
   }
+
 }
