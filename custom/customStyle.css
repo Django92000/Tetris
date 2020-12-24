@@ -128,10 +128,6 @@ a:before, a:after {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-.navbar-logo {
-  /*  font-family: "Wide latin"; */
-}
-
 .navbar-custom {
   background: midnightblue;
   background:#0f056b;
@@ -157,6 +153,10 @@ a:before, a:after {
 .navbar a:hover{
   color: white;
   text-decoration: underline;
+}
+
+.logo:hover{
+  text-decoration: none !important;
 }
 
 .navbar {
